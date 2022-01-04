@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    
 }
 h1{
     font-size: 50px;
@@ -10,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 5%;
 }
 .size-control{
     width: 50%;
@@ -29,4 +31,13 @@ section{
 .top-border{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dreem-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 5%;
+}
+.dreem-big h1{
+    font-size: 40px;
 }
